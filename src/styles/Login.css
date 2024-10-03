@@ -1,0 +1,71 @@
+body {
+  background: #FFFFFF;
+  height: 100vh; /* Full height */
+  margin: 0; /* Remove default body margin */
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Segoe UI', bold;
+  font-size: 35px;
+  margin: 1rem 0; /* Reduced top and bottom margins */
+}
+
+form {
+  display: flex; /* Use flexbox for better alignment */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center align items */
+  width: 350px;
+  margin: 20px auto; /* Center the form */
+}
+
+.text_area {
+  width: 100%;
+  margin-bottom: 20px; /* Reduced margin */
+}
+
+.text_input {
+  width: 100%; /* Full width of the container */
+  height: 64px; /* Set height for consistency */
+  padding: 0 10px; /* Add padding for better input feel */
+  border-radius: 22px;
+  border: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Montserrat', regular;
+  font-size: 20px;
+}
+
+.btn {
+  margin-top: 20px; /* Space above the button */
+  width: 165px;
+  height: 60px;
+  border-radius: 30px;
+  background: #B58DED;
+  border: none;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(181, 141, 237, 0.7), 0 6px 20px 0 rgba(181, 141, 237, 0.9);
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center align items */
+  background: #FFFFFF;
+  width: 434px;
+  margin: 5% auto; /* Centered and reduced margin */
+  border-radius: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px; /* Add padding for inner spacing */
+}
+
+.link {
+  color: #0E4579;
+  font-family: 'Montserrat', light;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px; /* Add some space above the link */
+}

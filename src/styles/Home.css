@@ -1,0 +1,59 @@
+.home-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center; /* Center text for a welcoming feel */
+}
+
+.home-container h1 {
+  font-family: 'Segoe UI', bold;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0E4579; /* Primary color */
+}
+
+.home-container p {
+  font-family: 'Montserrat', regular;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex; /* Use flexbox for feature layout */
+  justify-content: space-around; /* Space items evenly */
+  flex-wrap: wrap; /* Wrap on smaller screens */
+  margin: 20px 0;
+}
+
+.feature {
+  background: #f9f9f9; /* Light background for features */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 15px;
+  margin: 10px;
+  flex: 1 1 200px; /* Flexible basis for responsiveness */
+  text-align: center; /* Center text inside feature boxes */
+}
+
+.feature h3 {
+  font-family: 'Montserrat', bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #B58DED; /* Button color */
+  color: white;
+  border-radius: 30px;
+  text-decoration: none; /* Remove underline */
+  font-family: 'Montserrat', bold;
+  font-size: 1.2rem;
+}
+
+.cta-button:hover {
+  background: #A17DC0; /* Darker shade on hover */
+}
